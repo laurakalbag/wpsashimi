@@ -1,0 +1,6 @@
+/*
+Theme Name: at800
+*/
+
+/* This brings in all the Sass styles from the /sass folder */
+@import 'css/base.css'
