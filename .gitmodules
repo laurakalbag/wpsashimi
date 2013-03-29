@@ -1,3 +1,3 @@
-[submodule "wpsashimi"]
-	path = wpsashimi
+[submodule "wpsashimi/sashimi"]
+	path = wpsashimi/sashimi
 	url = https://github.com/laurakalbag/sashimi.git

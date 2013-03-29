@@ -11,4 +11,4 @@ Tags: bare bones, Sass, sashimi, bourbon.io
 */
 
 /* This brings in all the Sass styles from the /sass folder */
-@import 'css/base.css'
+@import 'sashimi/css/base.css'
