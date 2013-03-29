@@ -1,5 +1,13 @@
 /*
-Theme Name: WPSashimi
+Theme Name: WP Sashimi
+Theme URI: http://github.com/laurakalbag/wpsashimi
+Author: Laura Kalbag
+Author URI: http://laurakalbag.com
+Description: A style-less WordPress theme that's based on _s but has been cleaned up to be super-easy to read and build upon. Including Sashimi, Laura's Sass (with Bourbon.io) library.
+Version: 0.1
+License: MIT License (MIT)
+License URI: http://opensource.org/licenses/MIT
+Tags: bare bones, Sass, sashimi, bourbon.io
 */
 
 /* This brings in all the Sass styles from the /sass folder */

@@ -1,12 +1,4 @@
-<?php
-/**
- * The template for displaying Search Results pages.
- *
- * @package _s
- * @since _s 1.0
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 		<section id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
@@ -14,7 +6,7 @@ get_header(); ?>
 			<?php if ( have_posts() ) : ?>
 
 				<header class="page-header">
-					<h1 class="page-title"><?php printf( __( 'Search Results for: %s', '_s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+					<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'sashimi' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<?php _s_content_nav( 'nav-above' ); ?>
