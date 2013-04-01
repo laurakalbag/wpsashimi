@@ -12,3 +12,11 @@ Tags: bare bones, Sass, sashimi, bourbon.io
 
 /* This brings in all the Sass styles from the /sass folder */
 @import 'sashimi/css/base.css'
+
+/* This hides assistive text but not using display: none */
+.assistive-text {
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
