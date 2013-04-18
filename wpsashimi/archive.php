@@ -57,8 +57,6 @@
 					?>
 				</header><!-- .page-header -->
 
-				<?php _s_content_nav( 'nav-above' ); ?>
-
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -71,8 +69,6 @@
 					?>
 
 				<?php endwhile; ?>
-
-				<?php _s_content_nav( 'nav-below' ); ?>
 
 			<?php else : ?>
 
